@@ -7,9 +7,11 @@ const { MOVIE_BOOKING_SCRIPT_TASK } = require('./bpmnXml');
     const scriptExecutor = createScriptExecutor();
 
     Engine.provideService('myCustomService', {
+        a: 1,
         hello: () => {
             console.log('--> hello from myCustomService');
-        }
+        },
+        test: () => 'test',
     })
 
     Engine.provideScriptExecutor(scriptExecutor);

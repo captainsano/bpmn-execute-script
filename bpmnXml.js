@@ -45,6 +45,8 @@ const service = getService('myCustomService');
 console.log(service);
 if (service) {
   service.hello();
+  console.log('--> value: ', service.a);
+  console.log('--> ', service.test());
 }
 </bpmn:script>
     </bpmn:scriptTask>
