@@ -1,0 +1,16 @@
+{
+  "name": "bpmn-execute-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "neo-bpmn-engine": "^0.11.0",
+    "vm2-script-executor": "^0.1.2"
+  }
+}
